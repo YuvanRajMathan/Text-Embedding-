@@ -23,30 +23,30 @@ Installation
 
 Clone the repository:
 
-    sh
+sh
 
     git clone https://github.com/yourusername/your-repository-name.git
     cd your-repository-name
 
 Create a virtual environment:
 
-    sh
+sh
 
     python3 -m venv myenv
     source myenv/bin/activate
 
 Install the required packages:
 
-    sh
+sh
 
     pip install -r requirements.txt
 
 Set up your OpenAI API key:
 
-    Create a .env file in the root directory of the project.
-    Add your OpenAI API key to the .env file:
+Create a .env file in the root directory of the project.
+Add your OpenAI API key to the .env file:
 
-    plaintext
+plaintext
 
     OPENAI_API_KEY=your-api-key
 
@@ -59,12 +59,12 @@ python
 
 Usage
 
-    Prepare your text files:
-        Place your text files in a directory and set the path in the text_directory variable in the script.
+Prepare your text files:
+Place your text files in a directory and set the path in the text_directory variable in the script.
 
 Run the script:
 
-    sh
+sh
 
     python create_presentation.py
 
